@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+:root {
+  --heading-font: "Lexend Deca", sans-serif;
+  --default-font: 'Poppins', sans-serif;
+  --branding-color: #f67280;
+  --heading-color: #6c5b7c;
+  --secondary-color: #c06c84;
+  --third-color: #f8b595;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: var(--default-font);
+  background: rgba(246, 114, 128, 0.08);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h3 {
+    font-family: var(--heading-font);
+    font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+  font-size: 64px;
+  color: var(--third-color);
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+    font-size: 28px;
+    color: var(--third-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+    font-size: 36px;
+    color: var(--heading-color);
+}
+
+p {
+    font-size: 20px;
+    color: var(--heading-color);
+    font-weight: bold;
+}
+
+.btn-branding {
+    background-color: var(--branding-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.btn-branding:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.NavigationBar {
+   background-color: rgba(246, 114, 128, 0.2);
+}
+
+.NavigationBar a {
+    color: var(--branding-color)!important;
+    font-weight: bold;
+}
+
+.Home .hero {
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.Home .hero h2 {
+  line-height: 2;
+  font-family: var(--default-font)!important;
+}
+
+.Home .hero p {
+    margin: auto 80px;
+}
+
+.Home .hero img {
+    margin: 15px;
+}
+
+.Home .hero-name {
+    color: var(--heading-color);
+}
+
+.Home .featured-projects img {
+    width: 70%;
 }
