@@ -9,7 +9,7 @@
 
 body {
   font-family: var(--default-font);
-  background: rgba(246, 114, 128, 0.08);
+  background: rgba(246, 114, 128, 0.05);
 }
 
 h1, h2, h3 {
@@ -32,10 +32,26 @@ h3 {
     color: var(--heading-color);
 }
 
+h4 {
+    font-size: 30px;
+    color: var(--heading-color);
+}
+
 p {
     font-size: 20px;
     color: var(--heading-color);
     font-weight: bold;
+}
+
+a {
+    font-size: 20px;
+    color: var(--heading-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--heading-color);
+    text-decoration: none;
 }
 
 .btn-branding {
@@ -85,5 +101,41 @@ p {
 }
 
 .Home .featured-projects img {
-    width: 70%;
+    width: 75%;  
+    margin: 0 auto;
+}
+
+.Home .contact-box {
+    background: rgba(246, 114, 128, 0.2);
+    border-radius: 120px;
+    margin: 150px;
+    padding: 30px 80px;
+}
+
+.Home .contact-box h3 {
+    font-size: 48px;
+}
+
+.Footer {
+   background-color: rgba(246, 114, 128, 0.2);
+}
+
+.Footer a {
+    color: var(--secondary-color);
+}
+
+.Footer .social-links a {
+    margin: 20px;
+    font-size: 30px;
+    padding: 10px 14px;
+}
+
+.Footer small {
+    font-size: 11px;
+    color: var(--secondary-color);
+}
+
+.Footer small a {
+    font-size: 11px;
+    color: var(--heading-color);
 }

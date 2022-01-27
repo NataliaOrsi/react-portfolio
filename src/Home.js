@@ -38,14 +38,55 @@ export default function Home() {
         <div className="container-fluid">
           <div className="row">
             <div className="col-4">
-              <img src={WeatherApp} alt="Patchwork Website" />
+              <img
+                src={WeatherApp}
+                alt="Weather App"
+                className="d-block mb-5"
+              />
+              <div>
+                <h4 className="text-center">Weather App</h4>
+              </div>
             </div>
             <div className="col-4">
-              <img src={PortfolioDraft} alt="Portfolio Draft" />
+              <img
+                src={PortfolioDraft}
+                alt="Portfolio Draft"
+                className="d-block mb-5"
+              />
+              <h4 className="text-center">Portfolio Draft</h4>
             </div>
             <div className="col-4">
-              <img src={Patchwork} alt="Weather App" />
+              <img
+                src={Patchwork}
+                alt="Patchwork Website"
+                className="d-block mb-5"
+              />
+              <h4 className="text-center">Patchwork Website</h4>
             </div>
+          </div>
+          <div className="d-flex justify-content-center my-5">
+            <a className="btn btn-branding" href="/about">
+              View my Portfolio
+            </a>
+          </div>
+        </div>
+      </section>
+      <section className="container">
+        <div className="row d-none d-lg-flex justify-content-between align-items-center contact-box">
+          <div className="col-9">
+            <h3>Let's work together!</h3>
+            <a href="mailto:naty.m.orsi@gmail.com" title="Contact Natalia">
+              naty.m.orsi@gmail.com
+            </a>
+          </div>
+          <div className="col-3">
+            <a
+              className="btn btn-branding"
+              href="mailto:naty.m.orsi@gmail.com"
+              title="Contact Natalia"
+            >
+              Contact me
+            </a>
           </div>
         </div>
       </section>
