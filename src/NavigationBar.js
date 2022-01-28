@@ -1,6 +1,8 @@
 import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
 
+// find out how to put the active in the Navbar.
+
 export default function NavigationBar() {
     return (
       <Navbar className="NavigationBar" expand="lg">

@@ -77,6 +77,10 @@ a:hover {
     font-weight: bold;
 }
 
+.NavigationBar a:hover, .NavigationBar a.active {
+    color: var(--heading-color)!important;
+}
+
 .Home .hero {
     margin-top: 100px;
     text-align: center;
@@ -116,6 +120,64 @@ a:hover {
     font-size: 48px;
 }
 
+.About .hero {
+    margin-top: 150px;
+    padding: 10px 20px;
+}
+
+.About img {
+    width: 50%;  
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.About .about-description {
+    padding: 30px;
+}
+
+.about-description h3 {
+    color: var(--third-color);
+    font-size: 28px;
+}
+
+.About .about-description h2 {
+    font-size: 46px;
+    color: var(--branding-color);
+}
+
+.About .about-description p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.About .featured-skills h3 {
+    margin-top: 100px;
+    color: var(--secondary-color);
+}
+
+.About .skills-icons {
+    margin-right:80px;
+    margin-left: 80px;
+    font-size: 60px;
+    color: var(--secondary-color);
+}
+
+.About .skills-icons p {
+    color: var(--secondary-color);
+}
+
+.About .education-description h3 {
+    margin-top: 100px;
+}
+
+.About .education-description ul {
+    color: var(--heading-color);
+    font-size: 24px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
 .Footer {
    background-color: rgba(246, 114, 128, 0.2);
 }
@@ -139,3 +201,4 @@ a:hover {
     font-size: 11px;
     color: var(--heading-color);
 }
+
