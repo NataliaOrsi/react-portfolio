@@ -77,8 +77,12 @@ a:hover {
     font-weight: bold;
 }
 
-.NavigationBar a:hover, .NavigationBar a.active {
+.NavigationBar a:hover {
     color: var(--heading-color)!important;
+}
+
+.NavigationBar .active-link {
+  color: var(--heading-color)!important;
 }
 
 .Home .hero {

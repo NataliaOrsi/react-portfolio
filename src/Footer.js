@@ -10,7 +10,7 @@ export default function Footer() {
           rel="noreferrer"
           title="GitHub"
         >
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/nataliaorsi155/"
@@ -18,7 +18,7 @@ export default function Footer() {
           rel="noreferrer"
           title="Linkedin"
         >
-          <i class="fab fa-linkedin"></i>
+          <i className="fab fa-linkedin"></i>
         </a>
         <a
           href="mailto:naty.m.orsi@gmail.com"
@@ -26,7 +26,7 @@ export default function Footer() {
           rel="noreferrer"
           title="Email"
         >
-          <i class="far fa-envelope"></i>
+          <i className="far fa-envelope"></i>
         </a>
       </div>
       <small>
