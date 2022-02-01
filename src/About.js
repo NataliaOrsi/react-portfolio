@@ -19,26 +19,27 @@ export default function About() {
               Front-end developer, based in The Netherlands
             </h3>
             <p>
-              I am a passionate front-end developer based in The Netherlands. I
-              am from Brazil and moved with my husband to this beautiful country
-              due to his job and to enjoy one of our passions in common:
-              traveling and experiencing other cultures. I graduated in law and,
-              in Brazil, I worked as a prosecutor assistant for five years,
-              where I developed several transferable skills such as analytical
-              thinker and problem-solving. Working with legal cases is mainly
-              solving the conflicts and finding the best possible solutions to
-              each case. Also, being analytical is one of the most important
-              tools to law professionals, as paying attention to details can
-              make the difference between winning or losing a legal action.
+              I am a passionate front-end developer based in The Netherlands.
+              I'm originally from Brazil and have moved here with my husband for
+              his job and to pursue one of our passions together: traveling and
+              experiencing other cultures. I graduated in law and worked as a
+              prosecutor assistant in Brazil for five years, where I developed
+              transferable skills such as analytical thinking and
+              problem-solving. Working on legal cases is mainly solving the
+              conflicts and finding the best possible solutions for each
+              situation. In addition, law professionals need to be analytical,
+              as paying attention to details can make the difference between
+              winning or losing a case.
             </p>
             <p>
-              After I moved to The Netherlands, I took some time to think about
-              my career path and decided to pursue a newly discovered passion:
-              coding. Since the beginning of 2021, I focused on learning to code
-              and tried a few different free courses and languages such as Java
-              and Python, until I decided to invest in She Codes Workshops in
-              July of the same year. This course completely changed my life and
-              sparked my interest to continue to learn and grow as a developer.
+              After moving to The Netherlands, I took some time to think about
+              my career path. To fulfill my newly discovered passion, I decided
+              to become a coder. Since the beginning of 2021, I focused on
+              learning to code and tried a few different free courses and
+              languages such as Java and Python until I decided to invest in She
+              Codes Workshops focused on Front-end development in July of the
+              same year. The workshops changed my life and inspired me to learn
+              more and grow as a developer.
             </p>
           </div>
         </div>

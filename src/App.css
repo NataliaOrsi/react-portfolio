@@ -182,6 +182,27 @@ a:hover {
     margin-bottom: 100px;
 }
 
+.Contact .work-heading {
+    margin-top: 120px;
+}
+
+.Contact .contact-data a {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.Contact .contact-data ul {
+    list-style: none;
+    font-size: 30px;
+    color: var(--secondary-color);
+    padding: 0;
+}
+
+.Contact .contact-image {
+    display: block;
+    margin: 0px auto;
+}
+
 .Footer {
    background-color: rgba(246, 114, 128, 0.2);
 }
