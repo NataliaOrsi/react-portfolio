@@ -75,6 +75,7 @@ a:hover {
 .NavigationBar a {
     color: var(--branding-color)!important;
     font-weight: bold;
+    padding: 15px;
 }
 
 .NavigationBar a:hover {
@@ -139,7 +140,7 @@ a:hover {
     padding: 30px;
 }
 
-.about-description h3 {
+.About .about-description h3 {
     color: var(--third-color);
     font-size: 28px;
 }
@@ -180,6 +181,51 @@ a:hover {
     font-size: 24px;
     margin-left: 150px;
     margin-bottom: 100px;
+}
+
+.Projects h1 {
+    color: var(--branding-color);
+    margin-top: 100px;
+}
+
+.Projects .portfolio-content {
+    width: 1000px;
+    height: 400px;
+    border: 1px solid var(--branding-color);
+    border-radius: 90px;
+    margin: 80px auto;
+}
+
+.Projects a {
+    background-color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 70px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity 0.3s ease
+}
+
+.Projects a:hover {
+    opacity: 0.5;
+}
+
+.Projects .portfolio-images img {
+    width: 70%;
+    border-radius: 20px;
+}
+
+.Projects .project-info h2 {
+    color: var(--branding-color);
+    padding: 10px;
+    font-size: 30px;
+}
+
+.Projects .project-info p {
+    font-weight: 400;
 }
 
 .Contact .work-heading {

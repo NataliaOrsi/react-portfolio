@@ -56,7 +56,7 @@ export default function About() {
             <p>CSS</p>
           </div>
           <div className="col">
-            <i class="fab fa-react"></i>
+            <i className="fab fa-react"></i>
             <p>React</p>
           </div>
           <div className="col">
