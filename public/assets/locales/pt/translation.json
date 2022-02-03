@@ -1,0 +1,43 @@
+{
+  "navBar": {
+    "link1": "Sobre",
+    "link2": "Projetos",
+    "link3": "Contato"
+  },
+  "homePage": {
+    "introduction1": "Eu sou",
+    "introduction2": "desenvolvedora de Front-End com residência nos Países Baixos",
+    "introductionParagraph": "Uma brasileira graduada em Direito, que decidiu viver novos desafios como desenvolvedora de front-end, enquanto curte a vida nos Países Baixos",
+    "aboutButton": "Saiba mais",
+    "projectsIntroduction": "Projetos em Destaque",
+    "project1": "Website de Previsão do Tempo",
+    "project2": "Rascunho de Portfolio",
+    "project3": "Website de Patchwork",
+    "portfolioButton": "Veja meu Portfolio",
+    "invitation": "Vamos trabalhar juntos!",
+    "contactButton": "Contate-me"
+  },
+  "aboutPage": {
+    "paragraph1": "Eu sou uma apaixonada desenvolvedora de Web brasileira morando nos Países Baixos. Mudei-me para cá junto de meu marido por conta do seu trabalho e para realizar uma de nossas paixões: viajar e experimentar outras culturas. Eu sou formada em Direito e trabalhei como assistente de Procuradora de Justiça por cinco anos, onde desenvolvi habilidades transferíveis como pensamento analítico e solução de problemas. Trabalhar com casos jurídicos é principalmente resolver conflitos e encontrar as melhores soluções possíveis para cada situação. Além disso, os profissionais do Direito precisam ser analíticos, pois prestar atenção aos detalhes pode fazer a diferença entre ganhar ou perder um caso.",
+    "paragraph2": "Após a mudança para os Países Baixos, tirei um tempo para pensar sobre a minha carreira. Para realizar a minha paixão recém-descoberta, decidi tornar-me uma programadora. Desde o início de 2021, foquei em aprender programação e experimentei alguns cursos gratuitos e linguagens diversas como Java e Python, até que decidi investir no curso She Codes focado em desenvolvimento Front-end em julho do mesmo ano. Os workshops mudaram a minha vida e inspiraram-me a aprender cada vez mais e crescer como desenvolvedora.",
+    "title1": "Skills and Proficiency",
+    "title2": "Education and Certificates",
+    "certificate1": "2007-2012 Bacharel em Direito, Universidade Federal de Santa Catarina (UFSC)",
+    "certificate2": "2013-2014 Pós-Graduação Especialização em Direito Penal e Processual Penal, Escola do Ministério Público de Santa Catarina.",
+    "certificate3": "Julho 2021 - She Codes Basic - Introdução a Programação",
+    "certificate4": "Agosto 2021 - She Codes Plus - Desenvolvimento Front-end",
+    "certificate5": "Setembro 2021 - She Codes Desenvolvimento Web Responsivo",
+    "certificate6": "Outubro 2021 - She Codes Desenvolvimento React"
+  },
+  "projectsPage": {
+    "title": "Conheça um pouco dos meus últimos projetos!",
+    "project1": "Rascunho de Portfolio",
+    "projectDescription1": "Um website com múltiplas páginas criado em JavaScript e responsivo para celulares.",
+    "project2": "Website de Previsão do Tempo",
+    "projectDescription2": "Aplicativo meteorológico em tempo real criado durante o She Codes usando HTML, CSS, React Native e integração de API.",
+    "project3": "Dicionário Online",
+    "projectDescription3": "Um Dicionário React Native construído com integração de API que retorna o significado e as definições das palavras que estão sendo pesquisadas.",
+    "project4": "Website de Patchwork",
+    "projectDescription4": "Um website para mostrar o portfolio de projetos em Patchwork feitos pela proprietária. Construído em React Native com suporte para internacionalização (i18n)."
+  }
+}

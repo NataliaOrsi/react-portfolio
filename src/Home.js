@@ -3,8 +3,10 @@ import Naty from "./images/naty.png"
 import Patchwork from "./images/patchwork.png";
 import PortfolioDraft from "./images/portfolio_draft.png";
 import WeatherApp from "./images/Weather_app.png";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  const { t } = useTranslation();
   return (
     <div className="Home">
       <section className="container hero">
@@ -18,55 +20,55 @@ export default function Home() {
           </div>
           <div className="col-lg-7">
             <h1>
-              I'm <span className="hero-name">Natalia</span>
+              {t("homePage.introduction1")}{" "}
+              <span className="hero-name">Natalia</span>
             </h1>
-            <h2>a front-end developer based in The Netherlands</h2>
-            <p className="mb-4">
-              A brazilian graduated in law who decided to live new challenges as
-              a front-end developer, while enjoying the life in The Netherlands.
-            </p>
+            <h2>{t("homePage.introduction2")}</h2>
+            <p className="mb-4">{t("homePage.introductionParagraph")}</p>
             <div>
               <a className="btn btn-branding" href="/about">
-                More about me
+                {t("homePage.aboutButton")}
               </a>
             </div>
           </div>
         </div>
       </section>
       <section className="featured-projects">
-        <h3 className="m-5 text-center">Featured Projects</h3>
+        <h3 className="m-5 text-center">
+          {t("homePage.projectsIntroduction")}
+        </h3>
         <div className="container-fluid">
           <div className="row">
             <div className="col-4">
               <img
                 src={WeatherApp}
-                alt="Weather App"
+                alt={t("homePage.project1")}
                 className="d-block mb-5"
               />
               <div>
-                <h4 className="text-center">Weather App</h4>
+                <h4 className="text-center">{t("homePage.project1")}</h4>
               </div>
             </div>
             <div className="col-4">
               <img
                 src={PortfolioDraft}
-                alt="Portfolio Draft"
+                alt={t("homePage.project2")}
                 className="d-block mb-5"
               />
-              <h4 className="text-center">Portfolio Draft</h4>
+              <h4 className="text-center">{t("homePage.project2")}</h4>
             </div>
             <div className="col-4">
               <img
                 src={Patchwork}
-                alt="Patchwork Website"
+                alt={t("homePage.project3")}
                 className="d-block mb-5"
               />
-              <h4 className="text-center">Patchwork Website</h4>
+              <h4 className="text-center">{t("homePage.project3")}</h4>
             </div>
           </div>
           <div className="d-flex justify-content-center my-5">
             <a className="btn btn-branding" href="/about">
-              View my Portfolio
+              {t('homePage.portfolioButton')}
             </a>
           </div>
         </div>
@@ -74,7 +76,7 @@ export default function Home() {
       <section className="container">
         <div className="row d-none d-lg-flex justify-content-between align-items-center contact-box">
           <div className="col-9">
-            <h3>Let's work together!</h3>
+            <h3>{t('homePage.invitation')}</h3>
             <a href="mailto:naty.m.orsi@gmail.com" title="Contact Natalia">
               naty.m.orsi@gmail.com
             </a>
@@ -85,7 +87,7 @@ export default function Home() {
               href="mailto:naty.m.orsi@gmail.com"
               title="Contact Natalia"
             >
-              Contact me
+              {t('homePage.contactButton')}
             </a>
           </div>
         </div>

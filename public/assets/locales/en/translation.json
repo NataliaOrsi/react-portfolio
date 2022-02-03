@@ -1,0 +1,43 @@
+{
+  "navBar": {
+    "link1": "About",
+    "link2": "Projects",
+    "link3": "Contact"
+  },
+  "homePage": {
+    "introduction1": "I'm",
+    "introduction2": "a front-end developer based in The Netherlands",
+    "introductionParagraph": "A brazilian graduated in law who decided to live new challenges as a front-end developer, while enjoying the life in The Netherlands.",
+    "aboutButton": "More about me",
+    "projectsIntroduction": "Featured Projects",
+    "project1": "Weather App",
+    "project2": "Portfolio Draft",
+    "project3": "Patchwork Website",
+    "portfolioButton": "View my Portfolio",
+    "invitation": "Let's work together!",
+    "contactButton": "Contact me"
+  },
+  "aboutPage": {
+      "paragraph1": "I am a passionate front-end developer based in The Netherlands. I'm originally from Brazil and have moved here with my husband for his job and to pursue one of our passions together: traveling and experiencing other cultures. I graduated in law and worked as a prosecutor assistant in Brazil for five years, where I developed transferable skills such as analytical thinking and problem-solving. Working on legal cases is mainly solving the conflicts and finding the best possible solutions for each situation. In addition, law professionals need to be analytical, as paying attention to details can make the difference between winning or losing a case.",
+      "paragraph2": "After moving to The Netherlands, I took some time to think about my career path. To fulfill my newly discovered passion, I decided to become a coder. Since the beginning of 2021, I focused on learning to code and tried a few different free courses and languages such as Java and Python until I decided to invest in She Codes Workshops focused on Front-end development in July of the same year. The workshops changed my life and inspired me to learn more and grow as a developer.",
+      "title1": "Skills and Proficiency",
+      "title2": "Education and Certificates",
+      "certificate1": "2007-2012 Bachelor Law School, Universidade Federal de Santa Catarina (UFSC)",
+      "certificate2": "2013-2014 Post-graduation in Criminal Process and Criminal Procedure, Escola do Ministério Público de Santa Catarina.",
+      "certificate3": "July 2021 - She Codes Basic - Introduction to Coding",
+      "certificate4": "August 2021 - She Codes Plus - Front-end Development",
+      "certificate5": "September 2021 - She Codes Responsive Web Development",
+      "certificate6": "October 2021 - She Codes React Development"
+    },
+    "projectsPage": {
+        "title": "Take a look at what I've been working on!",
+        "project1": "Portfolio Draft",
+        "projectDescription1": "A multi-page website created in JavaScript that is fully mobile-responsive.",
+        "project2": "Weather App",
+        "projectDescription2": "Real-time weather app built during She Codes using HTML, CSS, React Native and API integration.",
+        "project3": "Dictionary App",
+        "projectDescription3": "A React Native Dictionary built with API integration that returns the meaning and definitions of words being searched.",
+        "project4": "Patchwork Website",
+        "projectDescription4": "A personal portfolio website to show the owner's patchwork portfolio. Built in React Native with support for internationalization (i18n)."
+    }
+}

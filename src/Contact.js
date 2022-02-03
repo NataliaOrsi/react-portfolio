@@ -1,13 +1,15 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import Computer from "./images/web_development.png";
 
 export default function Contact() {
+  const { t } = useTranslation();
   return (
     <section className="Contact">
       <div className="container mt-5">
         <div className="row work-heading">
           <div className="col-sm-9 p-3">
-            <h1>Let's work together!</h1>
+            <h1>{t("homePage.invitation")}</h1>
           </div>
         </div>
       </div>

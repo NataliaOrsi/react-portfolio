@@ -1,54 +1,84 @@
-import React from "react";
+import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
-import { Nav, Navbar, Container } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown, Container } from "react-bootstrap";
 
-// find out how to put the active in the Navbar.
+const lngs = {
+  en: { flag: "🇺🇸" },
+  pt: { flag: "🇧🇷" },
+};
 
 export default function NavigationBar() {
-    return (
-      <Navbar className="NavigationBar" expand="lg">
-        <Container fluid>
-          <Navbar.Brand className="flex-grow-1" href="/">
-            Natalia de M. O. Vieira
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav" className="d-flex flex-grow-0">
-            <Nav>
-                <NavLink
-                  to="/"
-                  className={({ isActive }) =>
-                    isActive ? "active-link" : "normal-link"
-                  }
+   const { t, i18n } = useTranslation();
+   const [language, setLanguage] = useState("🌎");
+  return (
+    <Navbar className="NavigationBar" expand="lg">
+      <Container fluid>
+        <Navbar.Brand className="flex-grow-1" href="/">
+          Natalia de M. O. Vieira
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav" className="d-flex flex-grow-0">
+          <Nav>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? "active-link" : "normal-link"
+              }
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? "active-link" : "normal-link"
+              }
+            >
+              {t("navBar.link1")}
+            </NavLink>
+            <NavLink
+              to="/projects"
+              className={({ isActive }) =>
+                isActive ? "active-link" : "normal-link"
+              }
+            >
+              {t('navBar.link2')}
+            </NavLink>
+            <NavLink
+              to="/contact"
+              className={({ isActive }) =>
+                isActive ? "active-link" : "normal-link"
+              }
+            >
+              {t("navBar.link3")}
+            </NavLink>
+          </Nav>
+          <Nav>
+            <NavDropdown
+              className="justify-content-end"
+              title={language}
+              id="basic-nav-dropdown"
+            >
+              {Object.keys(lngs).map((lng) => (
+                <NavDropdown.Item
+                  key={lng}
+                  style={{
+                    fontWeight:
+                      i18n.resolvedLanguage === lng ? "bold" : "normal",
+                  }}
+                  type="submit"
+                  onClick={() => {
+                    i18n.changeLanguage(lng);
+                    setLanguage(lngs[lng].flag);
+                  }}
                 >
-                  Home
-                </NavLink>
-                <NavLink
-                  to="/about"
-                  className={({ isActive }) =>
-                    isActive ? "active-link" : "normal-link"
-                  }
-                >
-                  About
-                </NavLink>
-                <NavLink
-                  to="/projects"
-                  className={({ isActive }) =>
-                    isActive ? "active-link" : "normal-link"
-                  }
-                >
-                  Portfolio
-                </NavLink>
-                <NavLink
-                  to="/contact"
-                  className={({ isActive }) =>
-                    isActive ? "active-link" : "normal-link"
-                  }
-                >
-                  Contact
-                </NavLink>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    );
+                  {lngs[lng].flag}
+                </NavDropdown.Item>
+              ))}
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }

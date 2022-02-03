@@ -1,16 +1,18 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import Patchwork from "./images/patchwork.png";
 import Dictionary from "./images/dictionary.png";
 import WeatherApp from "./images/Weather_app.png";
 import PortfolioDraft from "./images/portfolio_draft.png"
 
 export default function Projects() {
+  const { t } = useTranslation();
   return (
     <section className="Projects">
       <div className="container mt-5">
         <div className="row">
           <div className="col-sm-9 p-3">
-            <h1 className="mb-5">Take a look at what I've been working on!</h1>
+            <h1 className="mb-5">{t('projectsPage.title')}</h1>
           </div>
         </div>
         <div className="row portfolio-content">
@@ -24,11 +26,9 @@ export default function Projects() {
           </a>
           <div className="col-lg-6 d-flex align-items-center justify-content-center">
             <div className="project-info text-center">
-              <h2>Patchwork Website</h2>
+              <h2>{t('projectsPage.project4')}</h2>
               <p>
-                A personal portfolio website to show the owner's patchwork
-                portfolio. Built in React Native with support for
-                internationalization.
+                {t("projectsPage.projectDescription4")}
               </p>
             </div>
           </div>
@@ -36,10 +36,9 @@ export default function Projects() {
         <div className="row portfolio-content">
           <div className="col-lg-6 d-flex align-items-center justify-content-center">
             <div className="project-info text-center">
-              <h2>Dictionary App</h2>
+              <h2>{t('projectsPage.project3')}</h2>
               <p>
-                A React Native Dictionary built with API integration that
-                returns the meaning and definitions of words being searched.
+                {t('projectsPage.projectDescription3')}
               </p>
             </div>
           </div>
@@ -63,10 +62,9 @@ export default function Projects() {
           </a>
           <div className="col-lg-6 d-flex align-items-center justify-content-center">
             <div className="project-info text-center">
-              <h2>Weather App</h2>
+              <h2>{t('projectsPage.project2')}</h2>
               <p>
-                Real-time weather app built during She Codes using HTML, CSS,
-                React Native and API integration.
+                {t('projectsPage.projectDescription2')}
               </p>
             </div>
           </div>
@@ -74,10 +72,9 @@ export default function Projects() {
         <div className="row portfolio-content">
           <div className="col-lg-6 d-flex align-items-center justify-content-center">
             <div className="project-info text-center">
-              <h2>Portfolio Draft</h2>
+              <h2>{t('projectsPage.project1')}</h2>
               <p>
-                A multi-page website created in JavaScript that is fully
-                mobile-responsive.
+                {t('projectsPage.projectDescription1')}
               </p>
             </div>
           </div>
