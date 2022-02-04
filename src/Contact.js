@@ -8,12 +8,12 @@ export default function Contact() {
     <section className="Contact">
       <div className="container mt-5">
         <div className="row work-heading">
-          <div className="col-sm-9 p-3">
+          <div className="col-md-9 p-3">
             <h1>{t("homePage.invitation")}</h1>
           </div>
         </div>
       </div>
-      <div className="container mb-5">
+      <div className="container my-5">
         <div className="row align-items-center contact-data">
           <div className="col-md-5">
             <ul className="text-center">

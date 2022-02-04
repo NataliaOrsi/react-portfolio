@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-    font-size: 36px;
+    font-size: 34px;
     color: var(--heading-color);
 }
 
@@ -84,6 +84,10 @@ a:hover {
 
 .NavigationBar .active-link {
   color: var(--heading-color)!important;
+}
+
+.NavigationBar .language-button {
+    padding-left: 15px;
 }
 
 .Home .hero {
@@ -189,18 +193,13 @@ a:hover {
 }
 
 .Projects .portfolio-content {
-    width: 1000px;
-    height: 400px;
+    width: 80%;
     border: 1px solid var(--branding-color);
     border-radius: 90px;
     margin: 80px auto;
 }
 
 .Projects a {
-    background-color: var(--branding-color);
-    border: 1px solid var(--branding-color);
-    border-radius: 70px;
-    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,8 +212,15 @@ a:hover {
     opacity: 0.5;
 }
 
+.Projects .portfolio-images {
+    background-color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 70px;
+   
+}
+
 .Projects .portfolio-images img {
-    width: 70%;
+    width: 75%;
     border-radius: 20px;
 }
 
@@ -233,7 +239,7 @@ a:hover {
 }
 
 .Contact .contact-data a {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 300;
 }
 
@@ -273,3 +279,71 @@ a:hover {
     color: var(--heading-color);
 }
 
+@media (max-width: 1200px) {
+   h1 {
+        font-size: 44px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .btn-branding {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    
+    .Home .hero p {
+        margin: auto;
+    }
+
+    .Home .featured-projects img {
+        width: 100%;
+    }
+
+    .About .hero {
+        margin-top: 100px;
+    }
+
+    .About .featured-skills h3 {
+        margin-top: 30px;
+    }
+
+    .About .skills-icons {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .About .skills-icons p {
+        font-size: 15px;
+    }
+
+    .About .education-description h3 {
+       margin-top: 60px;
+    }
+
+    .About .education-description ul {
+        margin: 0;
+        padding: 0px 30px;
+        font-size: 22px
+    }
+
+    .Projects .portfolio-content {
+        width: 100%;
+        border: none;
+    }
+
+    .Contact .work-heading {
+        margin-top: 40px;
+    }
+
+    .Footer .social-links a {
+        font-size: 25px;
+        margin: 18px;
+    }
+
+    .Footer small {
+        font-size: 10px;
+    }
+
+}

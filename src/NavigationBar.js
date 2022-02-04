@@ -42,7 +42,7 @@ export default function NavigationBar() {
                 isActive ? "active-link" : "normal-link"
               }
             >
-              {t('navBar.link2')}
+              {t("navBar.link2")}
             </NavLink>
             <NavLink
               to="/contact"
@@ -52,10 +52,8 @@ export default function NavigationBar() {
             >
               {t("navBar.link3")}
             </NavLink>
-          </Nav>
-          <Nav>
             <NavDropdown
-              className="justify-content-end"
+              className="justify-content-end language-button"
               title={language}
               id="basic-nav-dropdown"
             >
