@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 import Patchwork from "./images/patchwork.png";
 import Dictionary from "./images/dictionary.png";
 import WeatherApp from "./images/Weather_app.png";
@@ -9,6 +10,11 @@ export default function Projects() {
   const { t } = useTranslation();
   return (
     <section className="Projects">
+      <Helmet>
+        <title>Natalia's Front-end Projects</title>
+        <meta name="description" content="Take a look on Natalia's Projects" />
+        <link rel="canonical" href="/projects" />
+      </Helmet>
       <div className="container mt-5">
         <div className="row">
           <div className="col-sm-9 p-3">

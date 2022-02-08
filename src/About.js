@@ -1,11 +1,17 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 import Developer from "./images/naty_flpls.jpg"
 
 export default function About() {
   const { t } = useTranslation();
   return (
     <div className="About">
+      <Helmet>
+        <title>About Natalia</title>
+        <meta name="description" content="Learn more about Natalia de Mesquita Orsi Vieira as a front-end developer" />
+        <link rel="canonical" href="/about" />
+      </Helmet>
       <section className="container-fluid hero">
         <div className="row d-flex align-items-center justify-content-center">
           <div className="col-lg-5">

@@ -1,11 +1,17 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet-async";
 import Computer from "./images/web_development.png";
 
 export default function Contact() {
   const { t } = useTranslation();
   return (
     <section className="Contact">
+      <Helmet>
+        <title>Contact Natalia</title>
+        <meta name="description" content="Contact Natalia for job inquiries" />
+        <link rel="canonical" href="/contact" />
+      </Helmet>
       <div className="container mt-5">
         <div className="row work-heading">
           <div className="col-md-9 p-3">
