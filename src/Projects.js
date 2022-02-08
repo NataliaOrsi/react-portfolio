@@ -21,6 +21,7 @@ export default function Projects() {
               href="https://clever-jepsen-29dfd2.netlify.app/projects"
               target="_blank"
               rel="noreferrer"
+              title="Patchwork Website Project"
             >
               <img
                 src={Patchwork}
@@ -48,6 +49,7 @@ export default function Projects() {
               href="https://frosty-hamilton-108760.netlify.app"
               target="_blank"
               rel="noreferrer"
+              title="Dictionary App Project"
             >
               <img
                 src={Dictionary}
@@ -63,6 +65,7 @@ export default function Projects() {
               href="https://sleepy-varahamihira-afc0ae.netlify.app/"
               target="_blank"
               rel="noreferrer"
+              title="Weather App Project"
             >
               <img src={WeatherApp} alt="Weather App" className="img-fluid" />
             </a>
@@ -86,6 +89,7 @@ export default function Projects() {
               href="https://unruffled-stonebraker-5736ff.netlify.app/"
               target="_blank"
               rel="noreferrer"
+              title="Portfolio Draft Project"
             >
               <img
                 src={PortfolioDraft}

@@ -67,7 +67,7 @@ export default function Home() {
             </div>
           </div>
           <div className="d-flex justify-content-center mt-3 mb-5">
-            <a className="btn btn-branding" href="/about">
+            <a className="btn btn-branding" href="/about" title="Learn more about Natalia">
               {t('homePage.portfolioButton')}
             </a>
           </div>

@@ -9,16 +9,16 @@ const lngs = {
 };
 
 export default function NavigationBar() {
-   const { t, i18n } = useTranslation();
-   const [language, setLanguage] = useState("🌎");
+  const { t, i18n } = useTranslation();
+  const [language, setLanguage] = useState("🌎");
   return (
     <Navbar className="NavigationBar" expand="lg">
       <Container fluid>
         <Navbar.Brand className="flex-grow-1" href="/">
           Natalia de M. O. Vieira
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="d-flex flex-grow-0">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav" className="flex-grow-0">
           <Nav>
             <NavLink
               to="/"
