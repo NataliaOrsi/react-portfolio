@@ -144,12 +144,7 @@ a:hover {
     padding: 30px;
 }
 
-.About .about-description h3 {
-    color: var(--third-color);
-    font-size: 28px;
-}
-
-.About .about-description h2 {
+.About .about-description h1 {
     font-size: 46px;
     color: var(--branding-color);
 }
@@ -280,6 +275,11 @@ a:hover {
     color: var(--heading-color);
 }
 
+.NotFoundPage img {
+    display: block;
+    margin: 0 auto;
+}
+
 @media (max-width: 1200px) {
    h1 {
         font-size: 44px;
@@ -346,5 +346,10 @@ a:hover {
     .Footer small {
         font-size: 10px;
     }
+
+    .NotFoundPage a {
+    display: block;
+    margin: 0 auto 30px;
+}
 
 }

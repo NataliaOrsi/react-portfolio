@@ -27,10 +27,10 @@ export default function Contact() {
                 <i className="far fa-envelope"></i> Email
               </li>
               <a
-                href="mailto:naty.m.orsi@gmail.com"
+                href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#110;&#97;&#116;&#121;&#46;&#109;&#46;&#111;&#114;&#115;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
                 title="send Natalia an email"
               >
-                naty.m.orsi@gmail.com
+                &#110;&#97;&#116;&#121;&#46;&#109;&#46;&#111;&#114;&#115;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;
               </a>
               <li className="mt-5">
                 <i className="fab fa-linkedin"></i> Linkedin

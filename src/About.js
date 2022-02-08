@@ -22,8 +22,8 @@ export default function About() {
             />
           </div>
           <div className="col-lg-6 about-description">
-            <h2>Natalia de Mesquita Orsi Vieira</h2>
-            <h3 className="mb-4">{t("homePage.introduction2")}</h3>
+            <h1>Natalia de Mesquita Orsi Vieira</h1>
+            <h2 className="mb-4">{t("homePage.introduction2")}</h2>
             <p>{t("aboutPage.paragraph1")}</p>
             <p>{t("aboutPage.paragraph2")}</p>
           </div>
