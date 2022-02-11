@@ -34,10 +34,10 @@
     "project1": "Rascunho de Portfolio",
     "projectDescription1": "Um website com múltiplas páginas criado em JavaScript e responsivo para celulares.",
     "project2": "Website de Previsão do Tempo",
-    "projectDescription2": "Aplicativo meteorológico em tempo real criado durante o She Codes usando HTML, CSS, React Native e integração de API.",
+    "projectDescription2": "Aplicativo meteorológico em tempo real criado durante o She Codes usando HTML, CSS, React e integração de API.",
     "project3": "Dicionário Online",
-    "projectDescription3": "Um Dicionário React Native construído com integração de API que retorna o significado e as definições das palavras que estão sendo pesquisadas.",
+    "projectDescription3": "Um Dicionário React construído com integração de API que retorna o significado e as definições das palavras que estão sendo pesquisadas.",
     "project4": "Website de Patchwork",
-    "projectDescription4": "Um website para mostrar o portfolio de projetos em Patchwork feitos pela proprietária. Construído em React Native com suporte para internacionalização (i18n)."
+    "projectDescription4": "Um website para mostrar o portfolio de projetos em Patchwork feitos pela proprietária. Construído em React com suporte para internacionalização (i18n)."
   }
 }

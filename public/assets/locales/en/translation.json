@@ -34,10 +34,10 @@
         "project1": "Portfolio Draft",
         "projectDescription1": "A multi-page website created in JavaScript that is fully mobile-responsive.",
         "project2": "Weather App",
-        "projectDescription2": "Real-time weather app built during She Codes using HTML, CSS, React Native and API integration.",
+        "projectDescription2": "Real-time weather app built during She Codes using HTML, CSS, React and API integration.",
         "project3": "Dictionary App",
-        "projectDescription3": "A React Native Dictionary built with API integration that returns the meaning and definitions of words being searched.",
+        "projectDescription3": "A React Dictionary built with API integration that returns the meaning and definitions of words being searched.",
         "project4": "Patchwork Website",
-        "projectDescription4": "A personal portfolio website to show the owner's patchwork portfolio. Built in React Native with support for internationalization (i18n)."
+        "projectDescription4": "A personal portfolio website to show the owner's patchwork portfolio. Built in React with support for internationalization (i18n)."
     }
 }
