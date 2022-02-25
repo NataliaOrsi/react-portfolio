@@ -195,6 +195,11 @@ a:hover {
     margin: 80px auto;
 }
 
+.Projects .portfolio-content button:focus
+{
+    box-shadow: none; 
+}
+
 .Projects a {
     display: flex;
     justify-content: center;

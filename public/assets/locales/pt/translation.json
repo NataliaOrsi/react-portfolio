@@ -38,6 +38,8 @@
     "project3": "Dicionário Online",
     "projectDescription3": "Um Dicionário React construído com integração de API que retorna o significado e as definições das palavras que estão sendo pesquisadas.",
     "project4": "Website de Patchwork",
-    "projectDescription4": "Um website para mostrar o portfolio de projetos em Patchwork feitos pela proprietária. Construído em React com suporte para internacionalização (i18n)."
+    "projectDescription4": "Um website para mostrar o portfolio de projetos em Patchwork feitos pela proprietária. Construído em React com suporte para internacionalização (i18n).",
+    "project5": "Clone da Página do Google",
+    "projectDescription5": "Um aplicativo que imita a página de busca do Google, construído em HTML, CSS e JavaScript e responsivo para tablets e celulares."
   }
 }

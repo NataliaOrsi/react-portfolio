@@ -5,6 +5,7 @@ import Patchwork from "./images/patchwork.png";
 import Dictionary from "./images/dictionary.png";
 import WeatherApp from "./images/Weather_app.png";
 import PortfolioDraft from "./images/portfolio_draft.png";
+import GoogleClone from "./images/google_clone.png";
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -19,6 +20,36 @@ export default function Projects() {
         <div className="row">
           <div className="col-sm-9 p-3">
             <h1 className="mb-5">{t("projectsPage.title")}</h1>
+          </div>
+        </div>
+        <div className="row portfolio-content">
+          <div className="col-md-6 d-flex align-items-center justify-content-center">
+            <div className="project-info text-center">
+              <h2>{t("projectsPage.project5")}</h2>
+              <p>{t("projectsPage.projectDescription5")}</p>
+              <br />
+              <a
+                href="https://github.com/NataliaOrsi/google-search-clone"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-branding">View at GitHub</button>
+              </a>
+            </div>
+          </div>
+          <div className="col-md-6 py-3 d-flex order-first order-md-last portfolio-images">
+            <a
+              href="https://clone-google-nmov.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+              title="Google Search Clone"
+            >
+              <img
+                src={GoogleClone}
+                alt="Clone of Google Search"
+                className="img-fluid"
+              />
+            </a>
           </div>
         </div>
         <div className="row portfolio-content">
@@ -40,6 +71,14 @@ export default function Projects() {
             <div className="project-info text-center">
               <h2>{t("projectsPage.project4")}</h2>
               <p>{t("projectsPage.projectDescription4")}</p>
+              <br />
+              <a
+                href="https://github.com/NataliaOrsi/patchwork"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-branding">View at GitHub</button>
+              </a>
             </div>
           </div>
         </div>
@@ -48,6 +87,14 @@ export default function Projects() {
             <div className="project-info text-center">
               <h2>{t("projectsPage.project3")}</h2>
               <p>{t("projectsPage.projectDescription3")}</p>
+              <br />
+              <a
+                href="https://github.com/NataliaOrsi/dictionary-app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-branding">View at GitHub</button>
+              </a>
             </div>
           </div>
           <div className="col-md-6 py-3 d-flex order-first order-md-last portfolio-images">
@@ -80,6 +127,14 @@ export default function Projects() {
             <div className="project-info text-center">
               <h2>{t("projectsPage.project2")}</h2>
               <p>{t("projectsPage.projectDescription2")}</p>
+              <br />
+              <a
+                href="https://github.com/NataliaOrsi/react-weather-app"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-branding">View at GitHub</button>
+              </a>
             </div>
           </div>
         </div>
@@ -88,6 +143,14 @@ export default function Projects() {
             <div className="project-info text-center">
               <h2>{t("projectsPage.project1")}</h2>
               <p>{t("projectsPage.projectDescription1")}</p>
+              <br />
+              <a
+                href="https://github.com/NataliaOrsi/my-portfolio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-branding">View at GitHub</button>
+              </a>
             </div>
           </div>
           <div className="col-md-6 py-3 d-flex order-first order-md-last portfolio-images">

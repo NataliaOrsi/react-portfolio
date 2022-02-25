@@ -30,14 +30,16 @@
       "certificate6": "October 2021 - She Codes React Development"
     },
     "projectsPage": {
-        "title": "Take a look at what I've been working on!",
-        "project1": "Portfolio Draft",
-        "projectDescription1": "A multi-page website created in JavaScript that is fully mobile-responsive.",
-        "project2": "Weather App",
-        "projectDescription2": "Real-time weather app built during She Codes using HTML, CSS, React and API integration.",
-        "project3": "Dictionary App",
-        "projectDescription3": "A React Dictionary built with API integration that returns the meaning and definitions of words being searched.",
-        "project4": "Patchwork Website",
-        "projectDescription4": "A personal portfolio website to show the owner's patchwork portfolio. Built in React with support for internationalization (i18n)."
+      "title": "Take a look at what I've been working on!",
+      "project1": "Portfolio Draft",
+      "projectDescription1": "A multi-page website created in JavaScript that is fully mobile-responsive.",
+      "project2": "Weather App",
+      "projectDescription2": "Real-time weather app built during She Codes using HTML, CSS, React and API integration.",
+      "project3": "Dictionary App",
+      "projectDescription3": "A React Dictionary built with API integration that returns the meaning and definitions of words being searched.",
+      "project4": "Patchwork Website",
+      "projectDescription4": "A personal portfolio website to show the owner's patchwork portfolio. Built in React with support for internationalization (i18n).",
+      "project5": "Google Clone Search",
+      "projectDescription5": "Fully responsive app that imitates the Google search web page built in HTML, CSS and JavaScript."
     }
 }
