@@ -9,7 +9,10 @@ export default function About() {
     <div className="About">
       <Helmet>
         <title>About Natalia</title>
-        <meta name="description" content="Learn more about Natalia de Mesquita Orsi Vieira as a front-end developer" />
+        <meta
+          name="description"
+          content="Learn more about Natalia de Mesquita Orsi Vieira as a front-end developer"
+        />
         <link rel="canonical" href="/about" />
       </Helmet>
       <section className="container-fluid hero">
@@ -26,6 +29,7 @@ export default function About() {
             <h2 className="mb-4">{t("homePage.introduction2")}</h2>
             <p>{t("aboutPage.paragraph1")}</p>
             <p>{t("aboutPage.paragraph2")}</p>
+            <p>{t("aboutPage.paragraph3")}</p>
           </div>
         </div>
       </section>
