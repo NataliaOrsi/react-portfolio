@@ -6,6 +6,7 @@ import Dictionary from "./images/dictionary.png";
 import WeatherApp from "./images/Weather_app.png";
 import PortfolioDraft from "./images/portfolio_draft.png";
 import GoogleClone from "./images/google_clone.png";
+import Hangman from './images/hangman.png'
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -20,6 +21,36 @@ export default function Projects() {
         <div className="row">
           <div className="col-sm-9 p-3">
             <h1 className="mb-5">{t("projectsPage.title")}</h1>
+          </div>
+        </div>
+        <div className="row portfolio-content">
+          <div className="col-md-6 py-3 d-flex portfolio-images">
+            <a
+              href="https://hangman-to-play.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+              title="Hangman Game Project"
+            >
+              <img
+                src={Hangman}
+                alt="Hangman Game Website"
+                className="img-fluid"
+              />
+            </a>
+          </div>
+          <div className="col-md-6 d-flex align-items-center justify-content-center">
+            <div className="project-info text-center">
+              <h2>{t("projectsPage.project6")}</h2>
+              <p>{t("projectsPage.projectDescription6")}</p>
+              <br />
+              <a
+                href="https://github.com/NataliaOrsi/next-hangman"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-branding">View at GitHub</button>
+              </a>
+            </div>
           </div>
         </div>
         <div className="row portfolio-content">
