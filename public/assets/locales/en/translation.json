@@ -43,6 +43,6 @@
       "project5": "Google Clone Search",
       "projectDescription5": "Fully responsive app that imitates the Google search web page built in HTML, CSS and JavaScript.",
       "project6": "Hangman Game",
-      "projectDescription6": "A Hangman game built in Next.js and Tailwind."
+      "projectDescription6": "A Hangman game built in Typescript, using Next.js framework and Tailwind as a CSS framework."
     }
 }

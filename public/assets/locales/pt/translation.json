@@ -43,6 +43,6 @@
     "project5": "Clone da Página do Google",
     "projectDescription5": "Um aplicativo que imita a página de busca do Google, construído em HTML, CSS e JavaScript e responsivo para tablets e celulares.",
     "project6": "Jogo da Forca",
-    "projectDescription6": "Jogo da Forca construido em Next.js e Tailwind"
+    "projectDescription6": "Jogo da Forca construido em Typescript, utilizando a framework Next.js e Tailwind como framework de CSS."
   }
 }
