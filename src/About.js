@@ -56,6 +56,10 @@ export default function About() {
             <i className="fab fa-invision"></i>
             <p>InVision</p>
           </div>
+          <div className="col-2">
+            <i class="fa-brands fa-python"></i>
+            <p>Python</p>
+          </div>
         </div>
         <div className="row d-flex justify-content-evenly text-center skills-icons">
           <div className="col-2">
@@ -78,11 +82,17 @@ export default function About() {
             <i className="fab fa-git"></i>
             <p>Git</p>
           </div>
+          <div className="col-2">
+            <i class="fa-brands fa-vuejs"></i>
+            <p>Vue</p>
+          </div>
         </div>
       </section>
       <section className=" container education-description mb-5">
         <h3 className="text-center mb-5">{t("aboutPage.title2")}</h3>
         <ul>
+          <li>{t("aboutPage.certificate8")}</li>
+          <li>{t("aboutPage.certificate7")}</li>
           <li>{t("aboutPage.certificate6")}</li>
           <li>{t("aboutPage.certificate5")}</li>
           <li>{t("aboutPage.certificate4")}</li>

@@ -6,7 +6,9 @@ import Dictionary from "./images/dictionary.png";
 import WeatherApp from "./images/Weather_app.png";
 import PortfolioDraft from "./images/portfolio_draft.png";
 import GoogleClone from "./images/google_clone.png";
-import Hangman from './images/hangman.png'
+import Hangman from './images/hangman.png';
+import Poem from './images/poem-AI.png';
+import travelSuggestion from './images/travel-suggestion-AI.png';
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -21,6 +23,66 @@ export default function Projects() {
         <div className="row">
           <div className="col-sm-9 p-3">
             <h1 className="mb-5">{t("projectsPage.title")}</h1>
+          </div>
+        </div>
+        <div className="row portfolio-content">
+          <div className="col-md-6 py-3 d-flex portfolio-images">
+            <a
+              href="https://travel-generator-ai.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              title="Artificial Inteligence to generate a travel destination"
+            >
+              <img
+                src={travelSuggestion}
+                alt="Travel Generator Website"
+                className="img-fluid"
+              />
+            </a>
+          </div>
+          <div className="col-md-6 d-flex align-items-center justify-content-center">
+            <div className="project-info text-center">
+              <h2>{t("projectsPage.project8")}</h2>
+              <p>{t("projectsPage.projectDescription8")}</p>
+              <br />
+              <a
+                href="https://github.com/NataliaOrsi/travel-suggestion"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-branding">View at GitHub</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-content">
+          <div className="col-md-6 d-flex align-items-center justify-content-center">
+            <div className="project-info text-center">
+              <h2>{t("projectsPage.project7")}</h2>
+              <p>{t("projectsPage.projectDescription7")}</p>
+              <br />
+              <a
+                href="https://github.com/NataliaOrsi/poem-generator-js"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-branding">View at GitHub</button>
+              </a>
+            </div>
+          </div>
+          <div className="col-md-6 py-3 d-flex order-first order-md-last portfolio-images">
+            <a
+              href="https://poem-generator-js.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              title="Artificial Inteligence Poem Generator"
+            >
+              <img
+                src={Poem}
+                alt="Poem Generator AI"
+                className="img-fluid"
+              />
+            </a>
           </div>
         </div>
         <div className="row portfolio-content">

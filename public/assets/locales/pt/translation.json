@@ -28,7 +28,9 @@
     "certificate3": "Julho 2021 - She Codes Basic - Introdução a Programação",
     "certificate4": "Agosto 2021 - She Codes Plus - Desenvolvimento Front-end",
     "certificate5": "Setembro 2021 - She Codes Desenvolvimento Web Responsivo",
-    "certificate6": "Outubro 2021 - She Codes Desenvolvimento React"
+    "certificate6": "Outubro 2021 - She Codes Desenvolvimento React",
+    "certificate7": "Novembro 2022 - Udemy - Compreendendo Typescript Edição 2023",
+    "certificate8": "Dezembro 2023 - She Codes Introdução a Inteligencia Artificial"
   },
   "projectsPage": {
     "title": "Conheça um pouco dos meus últimos projetos!",
@@ -43,6 +45,10 @@
     "project5": "Clone da Página do Google",
     "projectDescription5": "Um aplicativo que imita a página de busca do Google, construído em HTML, CSS e JavaScript e responsivo para tablets e celulares.",
     "project6": "Jogo da Forca",
-    "projectDescription6": "Jogo da Forca construido em Typescript, utilizando a framework Next.js e Tailwind como framework de CSS."
+    "projectDescription6": "Jogo da Forca construido em Typescript, utilizando a framework Next.js e Tailwind como framework de CSS.",
+    "project7": "Gerador de poemas por Inteligência Artificial",
+    "projectDescription7": "Um gerador de poemas por inteligência artificial construído em Javascript como um projeto para o curso She Codes Introdução a Inteligencia Artificial",
+    "project8": "Gerador de Viagens Inteligência Artificial",
+    "projectDescription8": "Um gerador de viagens construído com integração de API de Inteligência Artificial"
   }
 }

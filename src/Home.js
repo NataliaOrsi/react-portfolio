@@ -1,7 +1,7 @@
 import React from "react";
 import Naty from "./images/naty.png"
 import Patchwork from "./images/patchwork.png";
-import PortfolioDraft from "./images/portfolio_draft.png";
+import travelSuggestion from "./images/travel-suggestion-AI.png";
 import WeatherApp from "./images/Weather_app.png";
 import { useTranslation } from "react-i18next";
 
@@ -51,7 +51,7 @@ export default function Home() {
             </div>
             <div className="col-lg-4">
               <img
-                src={PortfolioDraft}
+                src={travelSuggestion}
                 alt={t("homePage.project2")}
                 className="img-fluid d-block mb-3"
               />

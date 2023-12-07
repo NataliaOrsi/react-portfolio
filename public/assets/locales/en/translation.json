@@ -11,7 +11,7 @@
     "aboutButton": "More about me",
     "projectsIntroduction": "Featured Projects",
     "project1": "Weather App",
-    "project2": "Portfolio Draft",
+    "project2": "AI Travel Generator",
     "project3": "Patchwork Website",
     "portfolioButton": "View my Portfolio",
     "invitation": "Let's work together!",
@@ -28,7 +28,9 @@
       "certificate3": "July 2021 - She Codes Basic - Introduction to Coding",
       "certificate4": "August 2021 - She Codes Plus - Front-end Development",
       "certificate5": "September 2021 - She Codes Responsive Web Development",
-      "certificate6": "October 2021 - She Codes React Development"
+      "certificate6": "October 2021 - She Codes React Development",
+      "certificate7": "November 2022 - Udemy - Understanding Typescript 2023 Edition",
+      "certificate8": "December 2023 - She Codes Introduction to Artificial Inteligence"
     },
     "projectsPage": {
       "title": "Take a look at what I've been working on!",
@@ -43,6 +45,10 @@
       "project5": "Google Clone Search",
       "projectDescription5": "Fully responsive app that imitates the Google search web page built in HTML, CSS and JavaScript.",
       "project6": "Hangman Game",
-      "projectDescription6": "A Hangman game built in Typescript, using Next.js framework and Tailwind as a CSS framework."
+      "projectDescription6": "A Hangman game built in Typescript, using Next.js framework and Tailwind as a CSS framework.",
+      "project7": "Artificial Inteligence Poem Generator",
+      "projectDescription7": "An artifial inteligence poem generator built in Javascript as a project for She Codes Introduction to Artificial Inteligence course",
+      "project8": "Artificial Inteligence Travel Generator",
+      "projectDescription8": "A travel generator built with Artificial Inteligence API integration"
     }
 }
