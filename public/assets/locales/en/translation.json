@@ -47,8 +47,10 @@
       "project6": "Hangman Game",
       "projectDescription6": "A Hangman game built in Typescript, using Next.js framework and Tailwind as a CSS framework.",
       "project7": "Artificial Inteligence Poem Generator",
-      "projectDescription7": "An artifial inteligence poem generator built in Javascript as a project for She Codes Introduction to Artificial Inteligence course",
+      "projectDescription7": "An artifial inteligence poem generator built in Javascript as a project for She Codes Introduction to Artificial Inteligence course.",
       "project8": "Artificial Inteligence Travel Generator",
-      "projectDescription8": "A travel generator built with Artificial Inteligence API integration"
+      "projectDescription8": "A travel generator built with Artificial Inteligence API integration.",
+      "project9": "Tasks Planner App",
+      "projectDescription9": "An application built in Python to organize tasks, with the possibility of adding the tasks in a list, view the list, delete the tasks and exit the application."
     }
 }

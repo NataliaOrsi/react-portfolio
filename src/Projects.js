@@ -9,6 +9,7 @@ import GoogleClone from "./images/google_clone.png";
 import Hangman from './images/hangman.png';
 import Poem from './images/poem-AI.png';
 import travelSuggestion from './images/travel-suggestion-AI.png';
+import ToDoList from './images/todolist_python.png'
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -23,6 +24,32 @@ export default function Projects() {
         <div className="row">
           <div className="col-sm-9 p-3">
             <h1 className="mb-5">{t("projectsPage.title")}</h1>
+          </div>
+        </div>
+        <div className="row portfolio-content">
+          <div className="col-md-6 d-flex align-items-center justify-content-center">
+            <div className="project-info text-center">
+              <h2>{t("projectsPage.project9")}</h2>
+              <p>{t("projectsPage.projectDescription9")}</p>
+              <br />
+              <a
+                href="https://github.com/NataliaOrsi/TodoList"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-branding">View at GitHub</button>
+              </a>
+            </div>
+          </div>
+          <div className="col-md-6 py-3 d-flex order-first order-md-last portfolio-images">
+            <a
+              href="https://github.com/NataliaOrsi/TodoList"
+              target="_blank"
+              rel="noreferrer"
+              title="Task Planner in Python"
+            >
+              <img src={ToDoList} alt="Poem Generator AI" className="img-fluid" />
+            </a>
           </div>
         </div>
         <div className="row portfolio-content">
@@ -77,11 +104,7 @@ export default function Projects() {
               rel="noreferrer"
               title="Artificial Inteligence Poem Generator"
             >
-              <img
-                src={Poem}
-                alt="Poem Generator AI"
-                className="img-fluid"
-              />
+              <img src={Poem} alt="Poem Generator AI" className="img-fluid" />
             </a>
           </div>
         </div>
