@@ -6,8 +6,8 @@
   },
   "homePage": {
     "introduction1": "I'm",
-    "introduction2": "a front-end developer based in The Netherlands",
-    "introductionParagraph": "A brazilian graduated in law who decided to live new challenges as a front-end developer, while enjoying the life in The Netherlands.",
+    "introduction2": "a software developer based in The Netherlands",
+    "introductionParagraph": "A brazilian graduated in law who decided to live new challenges as a software developer, while enjoying the life in The Netherlands.",
     "aboutButton": "More about me",
     "projectsIntroduction": "Featured Projects",
     "project1": "Weather App",
@@ -18,9 +18,13 @@
     "contactButton": "Contact me"
   },
   "aboutPage": {
-    "paragraph1": "I am a passionate front-end developer based in The Netherlands. I'm originally from Brazil and have moved here with my husband for his job and to pursue one of our passions together: traveling and experiencing other cultures. I graduated in law and worked as a prosecutor assistant in Brazil for five years, where I developed transferable skills such as analytical thinking and problem-solving. Working on legal cases is mainly solving the conflicts and finding the best possible solutions for each situation. In addition, law professionals need to be analytical, as paying attention to details can make the difference between winning or losing a case.",
-    "paragraph2": "After moving to The Netherlands, I took some time to think about my career path. To fulfill my newly discovered passion, I decided to become a coder. Since the beginning of 2021, I focused on learning to code and tried a few different free courses and languages such as Java and Python until I decided to invest in She Codes Workshops focused on Front-end development in July of the same year. The workshops changed my life and inspired me to learn more and grow as a developer.",
-    "paragraph3": "During my first job in this field, I worked in an Agile-driven environment to develop features for the company's platform, using Typescript and React framework with Redux state management.",
+    "paragraph1": "As a versatile software developer based in the Netherlands, my journey has been shaped by a diverse array of experiences, each contributing to my holistic approach to problem-solving and innovation. Hailing from Brazil, I embarked on a path of exploration and self-discovery, driven by a passion for software development and an unwavering commitment to personal growth.",
+    "paragraph2": "My professional odyssey began with a foundation in law, where I cultivated invaluable skills in analytical thinking and problem-solving during my tenure as a prosecutor assistant in Brazil. Transitioning from the courtroom to the world of technology, I seamlessly translated these skills into the realm of software development, where attention to detail and strategic problem-solving are paramount.",
+    "paragraph3": "Upon relocating to the Netherlands, I embarked on a deliberate journey of reinvention, fueled by a genuine desire to pursue my newfound passion for coding. My immersion in the world of programming began with exploratory forays into front-end development, culminating in diversifying back-end languages such as Python.",
+    "paragraph4": "My journey took a pivotal turn with She Codes Workshops, where I delved deep into the intricacies of front-end development, harnessing the power of TypeScript and the React framework to craft immersive user experiences. Empowered by this transformative experience, I transitioned into the role of a software developer with an unwavering commitment to excellence.",
+    "paragraph5": "My recent endeavors as a software developer have further enriched my skill set, equipping me with a robust foundation in the Vue framework and TypeScript. In my role with an auction platform specializing in sports t-shirts, I adeptly navigated the intricacies of Vue and TypeScript, leveraging my expertise to write efficient code, conduct comprehensive testing using Jest and Cypress, and resolve issues within the company's website platform with precision and efficiency.",
+    "paragraph6": "Additionally, my tenure as a front-end developer for a Campers and Caravans shared platform provided me with invaluable insights and experiences, enhancing my proficiency in HTML/CSS, TypeScript, React, and Redux. Collaborating with cross-functional teams, I played a pivotal role in developing innovative features and optimizing user experiences, cementing my reputation as a versatile and adept software developer.",
+    "paragraph7": "Driven by a relentless pursuit of excellence and fueled by a passion for innovation, I am poised to continue my trajectory as a software developer, leveraging my diverse skill set and insatiable curiosity to push the boundaries of what's possible in the ever-evolving landscape of technology.",
     "title1": "Skills and Proficiency",
     "title2": "Education and Certificates",
     "certificate1": "2007-2012 Bachelor Law School, Universidade Federal de Santa Catarina (UFSC)",
