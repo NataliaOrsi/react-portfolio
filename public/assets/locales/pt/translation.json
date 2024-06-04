@@ -57,6 +57,8 @@
     "project8": "Gerador de Viagens Inteligência Artificial",
     "projectDescription8": "Um gerador de viagens construído com integração de API de Inteligência Artificial.",
     "project9": "Planejador de Tarefas",
-    "projectDescription9": "Um aplicativo construído em Python para organizar tarefas, com a possibilidade de adicionar tarefas a uma lista, visualizar a lista de tarefas, deletar as tarefas e sair do aplicativo."
+    "projectDescription9": "Um aplicativo construído em Python para organizar tarefas, com a possibilidade de adicionar tarefas a uma lista, visualizar a lista de tarefas, deletar as tarefas e sair do aplicativo.",
+    "project10": "Django Portfolio",
+    "projectDescription10": "Um portfolio para aprender e praticar Django"
   }
 }

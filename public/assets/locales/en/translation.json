@@ -57,6 +57,8 @@
       "project8": "Artificial Inteligence Travel Generator",
       "projectDescription8": "A travel generator built with Artificial Inteligence API integration.",
       "project9": "Tasks Planner App",
-      "projectDescription9": "An application built in Python to organize tasks, with the possibility of adding the tasks in a list, view the list, delete the tasks and exit the application."
+      "projectDescription9": "An application built in Python to organize tasks, with the possibility of adding the tasks in a list, view the list, delete the tasks and exit the application.",
+      "project10": "Django Portfolio",
+      "projectDescription10": "A portfolio built to learn and practice Django"
     }
 }

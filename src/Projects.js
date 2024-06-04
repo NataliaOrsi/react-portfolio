@@ -9,7 +9,8 @@ import GoogleClone from "./images/google_clone.png";
 import Hangman from './images/hangman.png';
 import Poem from './images/poem-AI.png';
 import travelSuggestion from './images/travel-suggestion-AI.png';
-import ToDoList from './images/todolist_python.png'
+import ToDoList from './images/todolist_python.png';
+import DjangoPortfolio from './images/django-portfolio.png'
 
 export default function Projects() {
   const { t } = useTranslation();
@@ -24,6 +25,36 @@ export default function Projects() {
         <div className="row">
           <div className="col-sm-9 p-3">
             <h1 className="mb-5">{t("projectsPage.title")}</h1>
+          </div>
+        </div>
+        <div className="row portfolio-content">
+          <div className="col-md-6 py-3 d-flex portfolio-images">
+            <a
+              href="https://rp-portfolio.fly.dev/"
+              target="_blank"
+              rel="noreferrer"
+              title="Django Portfolio"
+            >
+              <img
+                src={DjangoPortfolio}
+                alt="Django Portfolio"
+                className="img-fluid"
+              />
+            </a>
+          </div>
+          <div className="col-md-6 d-flex align-items-center justify-content-center">
+            <div className="project-info text-center">
+              <h2>{t("projectsPage.project10")}</h2>
+              <p>{t("projectsPage.projectDescription10")}</p>
+              <br />
+              <a
+                href="https://github.com/NataliaOrsi/rp-portfolio"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="btn btn-branding">View at GitHub</button>
+              </a>
+            </div>
           </div>
         </div>
         <div className="row portfolio-content">
@@ -48,7 +79,11 @@ export default function Projects() {
               rel="noreferrer"
               title="Task Planner in Python"
             >
-              <img src={ToDoList} alt="Poem Generator AI" className="img-fluid" />
+              <img
+                src={ToDoList}
+                alt="Poem Generator AI"
+                className="img-fluid"
+              />
             </a>
           </div>
         </div>
