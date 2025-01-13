@@ -9,6 +9,7 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
           title="GitHub"
+          data-testid="github"
         >
           <i className="fab fa-github"></i>
         </a>
@@ -17,6 +18,7 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
           title="Linkedin"
+          data-testid="linkedin"
         >
           <i className="fab fa-linkedin"></i>
         </a>
@@ -25,6 +27,7 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
           title="Email"
+          data-testid="email"
         >
           <i className="far fa-envelope"></i>
         </a>
